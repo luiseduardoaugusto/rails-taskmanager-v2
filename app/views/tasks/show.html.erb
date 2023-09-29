@@ -5,3 +5,5 @@
     <li><%= @task.details %></li>
     <li><%= @task.completed %></li>
   </ul>
+  <%= link_to 'Editar', edit_task_path(@task)  %>
+  <%= link_to 'Back to All Tasks', tasks_path  %>

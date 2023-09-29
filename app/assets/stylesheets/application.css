@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+ ul {
+  text-decoration: none;
+  list-style: none;
+ }
+
+ .lista-tareas{
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+ }
+
+ ul > li {
+  padding: 2px;
+ }
+
+ .no-decor{
+  text-decoration: none;
+ }
